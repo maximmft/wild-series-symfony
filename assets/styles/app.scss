@@ -1,0 +1,15 @@
+// Personnalisation des variables Bootstrap
+$primary: #8302ab;
+$body-bg: rgb(112, 55, 55);
+
+// Import de Bootstrap (une seule fois)
+@import '../../vendor/twbs/bootstrap/scss/bootstrap';
+
+// Tes styles personnalisés
+body {
+    background-color: $body-bg; 
+}
+
+h1 {
+    color: rgb(150, 150, 199);
+}
